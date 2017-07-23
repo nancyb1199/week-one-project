@@ -51,18 +51,17 @@ table {
 /* End Meyer Reset */
 
 
-/* update below, this is a direct copy from iBeer */
 body{
     font-family: 'Roboto', serif;
     line-height: 1.8;
 		color: #131511;
     margin: auto;
-		padding: 50px;
+		padding: 20px;
     background-color: #F2F1E8;
     mx-width: 1200px;
 }
 #site-header{
-	position: absolute;
+	position: relative;
   right: 0;
   top: 0;
   left: 0;
@@ -70,6 +69,10 @@ body{
 	color: #2B2F26;
   background-color: #FFFFFF;
 	text-align: center;
+}
+
+#main-nav {
+	color: #2B2F26;
 }
 
 h1{
@@ -115,7 +118,7 @@ h4 span {
 }
 
 #site-footer {
-	position: absolute;
+	position: relative;
   right: 0;
   bottom: 0;
   left: 0;
