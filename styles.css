@@ -2,7 +2,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -61,23 +61,34 @@ body{
     mx-width: 1200px;
 }
 #site-header{
-	position: relative;
+  display: flex;
+  flex-flow: row;
+  /* align-items: center; */
   right: 0;
   top: 0;
   left: 0;
   padding: 1rem;
 	color: #2B2F26;
   background-color: #FFFFFF;
+  position: fixed;
 	text-align: center;
 }
 
 #main-nav {
 	color: #2B2F26;
+  justify-content: center;
+	/* display: flex;
+	justify-content: space-around; */
+}
+
+#main-nav a {
+  margin-right: 50px;
 }
 
 h1{
 	font-size: 400%;
 	text-align: center;
+	margin-top: 40px;
 }
 
 h3{
@@ -85,6 +96,7 @@ h3{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
 
 #main_list{
 	display:flex;
@@ -117,8 +129,20 @@ h4 span {
   padding: 10px;
 }
 
+#birdhouse{
+	float: left;
+}
+#shelf{
+  float: right;
+}
+
+blockquote{
+  border-left: 1px solid #2B2F26;
+  padding-left: 10px;
+}
+
 #site-footer {
-	position: relative;
+	position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
