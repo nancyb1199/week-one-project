@@ -88,7 +88,7 @@ body{
 h1{
 	font-size: 400%;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 h3{
@@ -132,8 +132,17 @@ h4 span {
 #birdhouse{
 	float: left;
 }
+#para2{
+  display:flex;
+}
+#para2 p{
+  flex:4;
+}
 #shelf{
-  float: right;
+  flex:1;
+}
+figcaption{
+  font-size: 80%;
 }
 
 blockquote{
@@ -141,8 +150,28 @@ blockquote{
   padding-left: 10px;
 }
 
+table{
+  margin-bottom: 70px;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+table, th, td {
+  border: 1px solid #2B2F26;
+  padding: 5px;
+}
+
+thead {
+  text-align: center;
+}
+td{
+  margin-left: 5px;
+}
+tr:nth-child(odd) {background-color: #efe5d3}
+
 #site-footer {
 	position: fixed;
+  margin-top: 20px;
   right: 0;
   bottom: 0;
   left: 0;
