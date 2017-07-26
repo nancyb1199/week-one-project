@@ -171,6 +171,13 @@ td{
 }
 tr:nth-child(odd) {background-color: #efe5d3}
 
+#nl_main {
+  display: flex;
+  flex-flow: column;
+  background-image: url("/Users/belscher/Documents/Projects/week-one-project/images/background-2.jpg");
+  background-size: 100%;
+}
+
 #site-footer {
 	position: fixed;
   margin-top: 20px;
