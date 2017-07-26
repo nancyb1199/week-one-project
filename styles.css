@@ -171,13 +171,27 @@ td{
 }
 tr:nth-child(odd) {background-color: #efe5d3}
 
-#nl_main {
-  display: flex;
-  flex-flow: column;
+/* ----------------- newsletter page styling ---------------------- */
+
+.news_page{
   background-image: url("/Users/belscher/Documents/Projects/week-one-project/images/background-2.jpg");
   background-size: 100%;
 }
 
+ #nl_main {
+  display: flex;
+  flex-flow: column;
+
+} 
+
+ #signup_form{
+  background-color: white;
+  display: inline;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
 #site-footer {
 	position: fixed;
   margin-top: 20px;

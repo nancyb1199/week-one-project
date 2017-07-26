@@ -10,6 +10,7 @@
     <link href="styles.css" rel="stylesheet">
 </head>
   <body>
+    <div class="news_page">
     <div class="wrapper">
       <header id="site-header">
       <img src="/Users/belscher/Documents/Projects/week-one-project/images/bent-creek-logo.png" height="50px" >
@@ -21,17 +22,24 @@
     </header>
 
     <div id="nl_main">
+      <div id="signup_form">
+        <div class="newshd1">Sign Up for Our Weekly Newsletter</div>
 
-      <h1>Sign Up for Our Weekly Newsletter</h1>
-
-      <h3>Stay up to date with events, activities, news and specials.</h3>
-
+        <div class="newshd2">Stay up to date with events, activities, news and specials.</div>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email">
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div> <!-- signup_form -->
     </div> <!-- nl_main -->
 
 
 
 
-
+</div> <!-- newspage -->
 
 
 </body>
