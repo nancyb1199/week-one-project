@@ -59,6 +59,7 @@ body{
 		padding: 20px;
     background-color: #F2F1E8;
     mx-width: 1200px;
+    margin-bottom: 30px;
 }
 #site-header{
   display: flex;
@@ -72,11 +73,13 @@ body{
   background-color: #FFFFFF;
   position: fixed;
 	text-align: center;
+  z-index: 20;
 }
 
 #main-nav {
 	color: #2B2F26;
   justify-content: center;
+  width: 90%;
 	/* display: flex;
 	justify-content: space-around; */
 }
@@ -151,7 +154,6 @@ blockquote{
 }
 
 table{
-  margin-bottom: 70px;
   border-collapse: collapse;
   width: 40%;
 }
