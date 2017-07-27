@@ -158,18 +158,22 @@ p a:hover{
 #birdhouse{
 	float: left;
 }
-#para2{
-  display:flex;
+.facilities{
+  display: flex;
+  flex-direction: row;
 }
-#para2 p{
+#para2{
+  /*display:flex; */
+}
+.facilities p{
   flex:4;
-  position: relative;
-  left: -250px;
+  /* position: relative;
+  left: -250px; */
 }
 #shelf{
   flex:1;
-  position: relative;
-  right: -700px;
+  /* position: relative;
+  right: -700px; */
 }
 
 figcaption{
