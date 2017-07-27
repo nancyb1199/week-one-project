@@ -1,5 +1,5 @@
 /* Meyer Reset */
-/* http://meyerweb.com/eric/tools/css/reset/
+ http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers
+HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -77,7 +77,7 @@ body{
 }
 
 #main-nav {
-	color: #2B2F26;
+	/* color: #2B2F26; */
   justify-content: center;
   width: 90%;
 	/* display: flex;
@@ -86,6 +86,16 @@ body{
 
 #main-nav a {
   margin-right: 50px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+  color: #CD5D67;
+}
+a:active {
+  color: #968772;
 }
 
 h1{
@@ -132,6 +142,19 @@ h4 span {
   padding: 10px;
 }
 
+p a{
+  color: #968772;
+}
+
+p a:hover{
+  color: #967343;
+}
+/* ------- About page styling ------ */
+
+.about{
+  margin-left: 10%;
+}
+
 #birdhouse{
 	float: left;
 }
@@ -140,10 +163,15 @@ h4 span {
 }
 #para2 p{
   flex:4;
+  position: relative;
+  left: -250px;
 }
 #shelf{
   flex:1;
+  position: relative;
+  right: -700px;
 }
+
 figcaption{
   font-size: 80%;
 }
@@ -155,7 +183,7 @@ blockquote{
 
 table{
   border-collapse: collapse;
-  width: 40%;
+  width: 70%;
 }
 
 table, th, td {
@@ -175,23 +203,81 @@ tr:nth-child(odd) {background-color: #efe5d3}
 
 .news_page{
   background-image: url("/Users/belscher/Documents/Projects/week-one-project/images/background-2.jpg");
-  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
  #nl_main {
   display: flex;
   flex-flow: column;
-
-} 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
  #signup_form{
   background-color: white;
-  display: inline;
+  /* display: flex;
+  flex-flow: column;
   height: 50%;
-  align-items: center;
+  width: auto; */
+  position:absolute;
+  /* margin-top: 50px; */
+  width: 60vw;
+  height: 40vh;
+  /* align-items: center;
   justify-content: center;
-  margin: 10%;
+  text-align: center;
+   margin: 10%; */
 }
+
+.newshd1{
+  font-size: 32px;
+}
+.newshd2{
+  font-size: 24px;
+}
+form{
+  display: flex;
+  flex-flow: column;
+}
+label{
+  display: inline-block;
+  color: #968772;
+
+}
+
+input{
+    border-style: solid;
+    /* border-bottom: 20px; */
+    border-color: #968772;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+}
+
+
+button{
+  background-color: #968772;
+  color: #F2F1E8;
+  font-size: 20px;
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+}
+button:hover{
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
+
+/* --------- Common Footer --------- */
 #site-footer {
 	position: fixed;
   margin-top: 20px;
