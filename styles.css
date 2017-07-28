@@ -135,9 +135,7 @@ h4 {
 h4 span {
 	color: #F2F1E8;
 	padding: 10px;
-  /* letter-spacing: -1px; */
   background: rgb(0, 0, 0); /* fallback color */
-  /* background: rgba(68, 66, 64, 0.7); */
 	background: rgba(56, 54, 52, 1);
   padding: 10px;
 }
@@ -183,6 +181,28 @@ figcaption{
 blockquote{
   border-left: 1px solid #2B2F26;
   padding-left: 10px;
+}
+
+.room{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomcap{
+  position: relative;
+  bottom: 130px;
+  left: 200px;
+}
+
+.roomcap span {
+	color: #F2F1E8;
+  font-size: 24px;
+	padding: 10px;
+  /* background: rgb(0, 0, 0); /* fallback color */
+	background-color: transparent;
+  padding: 10px;
 }
 
 table{
@@ -259,8 +279,8 @@ label{
   color: #968772;
   font-size: 24px;
   position: relative;
-  right: 200px;
-  top: 40px;
+  right: 192px;
+  top: 45px;
   text-decoration: underline;
 
 }
